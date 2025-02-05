@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+body .promo-page {
+    background-color: #E6162E;
+}
+
+body {
+    background-image: url('../img/logo_mod.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 55vh;
+}
+
+header {
+    background-image: linear-gradient(white, #00A24F);
+}
+
+header h1 {
+    color: #E6162E;
+    padding: 0.5em 0.5em 0em 0.5em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+header p {
+    color: white;
+    margin: 0em 0.5em 0em 0.5em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+main .promo-page{
+    background-color: #E6162E;
+}
+
+main p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0.4em;
+}
+
+main p a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.back {
+    margin: 0 0 0.6em 0.6em;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 58vh;
+    gap: 1em;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.menu .btn-menu {
+    display: flex;
+    height: 2.5em;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    border-radius: 0.4em;
+    font-family: "Oswald", sans-serif;
+    background-color: #00A24F;
+}
+
+#btn-semana {
+    background-color: #E6162E;
+}
+
+.footer-menu {
+    background-color: #E6162E;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin: 0;
+    
+}
+
+    .footer-menu a {
+        text-decoration: none;
+        color: #4fb430;
+    }
+
+    .footer-menu p {
+        margin: 0;
+    }
+.header-menu {
+    padding-top: 3em;
+}
+
+.header-menu h1 {
+    color: #E6162E;
+    padding: 0.5em 0.5em 0em 0.5em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 3.5em;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.header-menu p {
+    color: white;
+    margin: 0em 0.5em 0em 0.5em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
