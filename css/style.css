@@ -6,6 +6,7 @@
     margin: 0em;
 }
 
+
 body .promo-page {
     background-color: #E6162E;
 }
@@ -86,11 +87,22 @@ img {
     font-size: 3em;
     border-radius: 0.4em;
     font-family: "Oswald", sans-serif;
-    background-color: #00A24F;
+}
+
+#btn-dia {
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: #FCFCFC;
+    --bs-btn-bg: #00A24F;
+    --bs-btn-hover-bg: #00833f;
+    --bs-btn-hover-color: #FCFCFC;
 }
 
 #btn-semana {
-    background-color: #E6162E;
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: #FCFCFC;
+    --bs-btn-bg: #E6162E;
+    --bs-btn-hover-bg: #c41429;
+    --bs-btn-hover-color: #FCFCFC;
 }
 
 .footer-menu {
