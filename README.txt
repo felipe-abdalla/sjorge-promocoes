@@ -1,20 +1,12 @@
--------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 Como alterar o arquivo da promoção:
 1 - Abrir a pasta img
-2 - Se há valor em manter um histórico de promoções, sugiro mudar o nome da promo atual para a data em que ela foi exibida. Caso não tenha necessidade, pode apagar tanto a promoção atual quanto a pasta outras-promo.
-3 - Renomear o arquivo da promoção nova para promo.
+2 - Coloque a nova imagem dentro da pasta e renomeie o arquivo para "promo-dia" ou "promo-semana".
 IMPORTANTE: O arquivo promo DEVE estar em formato .jpg
--------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 Fazer upload para o site:
-1 - Acessar o site netlify.com
-2 - Clicar em Log In no canto superior direito da tela.
-3 - Clicar em Log in with email.
-4 - Fazer login com o email e senha da conta do SJ
-	Email: caixasjorge@gmail.com
-	Senha: caixasjorge
-5 - Copiar e colar o endereço na busca: https://app.netlify.com/sites/saojorgepromocoes/deploys
-6 - Arrastar a pasta alterada do projeto para a sessão em destaque na imagem.
--------------------------------------------------------------------------------------------------------------------------------------------
+1 - Execute o script run.bat (apenas dar dois cliques) e o programa rodar. No final vai ter uma mensagem de confirmação "Done", logo após verifique se ocorreu a atualização
+------------------------------------------------------------------------------------------------------------------
 Gmail:
 caixasjorge@gmail.com
 h05f27f03
