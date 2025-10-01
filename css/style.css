@@ -2,147 +2,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&display=swap');
 
 * {
-    padding: 0em;
-    margin: 0em;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-body .promo-page {
-    background-color: #E6162E;
+html, body {
+  height: 100%;
 }
 
 body {
-    background-image: url('../img/logo_mod.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    height: 55vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
+/* Header */
 header {
-    background-image: linear-gradient(white, #00A24F);
+  background-image: linear-gradient(white, #00A24F);
+  padding-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 header h1 {
-    color: #E6162E;
-    padding: 0.5em 0.5em 0em 0.5em;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-size: 2em;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
+  color: #E6162E;
+  padding: 0.5em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 2.5em;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
 }
 
 header p {
-    color: white;
-    margin: 0em 0.5em 0em 0.5em;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    text-align: center;
-    text-shadow: 2px 2px 3px black;
+  color: white;
+  margin: 0 0.5em;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
 }
 
-main .promo-page{
-    background-color: #E6162E;
+/* Content */
+main {
+  flex: 1;
+  margin: 0;
 }
 
-main p {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin-bottom: 0;
-    margin-top: 0.4em;
+.promotions {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3em;
+  gap: 0.3em;
 }
 
-main p a {
-    text-decoration: none;
-    color: yellow;
+.promo-sample {
+  border: 2px solid #E6162E;
+  overflow: hidden;
+  width: fit-content;
+  display: inline-block;
 }
 
-.back {
-    margin: 0 0 0.6em 0.6em;
+.promo-sample img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-img {
-    width: 100%;
+/* Footer */
+footer {
+  background-color: #E6162E;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 0;
 }
 
-.menu {
-    display: flex;
-    flex-direction: column;
-    height: 58vh;
-    gap: 1em;
-    align-items: center;
-    margin-top: 3em;
+footer a {
+  text-decoration: none;
+  color: #4fb430;
 }
 
-.menu .btn-menu {
-    display: flex;
-    height: 2.5em;
-    width: 70%;
-    align-items: center;
-    justify-content: center;
-    font-size: 3em;
-    border-radius: 0.4em;
-    font-family: "Oswald", sans-serif;
-}
-
-#btn-dia {
-    --bs-btn-font-weight: 500;
-    --bs-btn-color: #FCFCFC;
-    --bs-btn-bg: #00A24F;
-    --bs-btn-hover-bg: #00833f;
-    --bs-btn-hover-color: #FCFCFC;
-}
-
-#btn-semana {
-    --bs-btn-font-weight: 500;
-    --bs-btn-color: #FCFCFC;
-    --bs-btn-bg: #E6162E;
-    --bs-btn-hover-bg: #c41429;
-    --bs-btn-hover-color: #FCFCFC;
-}
-
-.footer-menu {
-    background-color: #E6162E;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    text-align: center;
-    color: white;
-    margin: 0;
-    
-}
-
-    .footer-menu a {
-        text-decoration: none;
-        color: #4fb430;
-    }
-
-    .footer-menu p {
-        margin: 0;
-    }
-.header-menu {
-    padding-top: 3em;
-}
-
-.header-menu h1 {
-    color: #E6162E;
-    padding: 0.5em 0.5em 0em 0.5em;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-size: 3.5em;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-}
-
-.header-menu p {
-    color: white;
-    margin: 0em 0.5em 0em 0.5em;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
-    text-align: center;
-    text-shadow: 2px 2px 3px black;
+footer p {
+  margin: 0;
 }

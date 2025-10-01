@@ -2,7 +2,7 @@
 Como alterar o arquivo da promoção:
 1 - Abrir a pasta img
 2 - Se há valor em manter um histórico de promoções, sugiro mudar o nome da promo atual para a data em que ela foi exibida. Caso não tenha necessidade, pode apagar tanto a promoção atual quanto a pasta outras-promo.
-3 - Renomear o arquivo da promoção nova para promo.
+3 - Renomear o arquivo da promoção nova para promo na ordem que desejar (promo1, promo2 e promo3).
 IMPORTANTE: O arquivo promo DEVE estar em formato .jpg
 -------------------------------------------------------------------------------------------------------------------------------------------
 Fazer upload para o site:
